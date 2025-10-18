@@ -1,0 +1,32 @@
+.footer {
+  /* padding: 2rem 0;  */
+  border-top: 1px solid var(--border-color, #ccc); /* border-t border-border */
+  /* background-color: var(--footer-bg, #121212); */
+  width: 100%;
+  color: var(--footer-text-color, #999);
+  /* padding-top : 2%; */
+}
+
+.container {
+  max-width: 72rem; /* roughly equivalent for mx-auto max-w */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem; /* px-6 */
+  padding-right: 1.5rem;
+  padding-top: 2%;
+}
+
+.footer-text {
+  font-size: 0.875rem; /* text-muted-foreground approx */
+  color: var(--text-muted-foreground, #999);
+}
+
+.text-primary {
+  color: var(--color-primary, hsl(180, 100%, 50%)); /* Customize your primary accent */
+  font-weight: 600;
+}
+
+.text-secondary {
+  color: var(--color-secondary, hsl(323, 100%, 71%)); /* Secondary accent */
+  font-weight: 600;
+}

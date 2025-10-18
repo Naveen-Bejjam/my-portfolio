@@ -1,0 +1,43 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: font-island;
+  background: #0D1117;
+}
+
+.app-root{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  /* background: radial-gradient(circle at center, #111827, #000000 250%); */
+  padding: 2%;
+  box-sizing: border-box;
+
+}
+.header{
+  display: flex;
+  border-bottom: 2px solid white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.name{
+  font-family: cursive;
+}
+.contact{
+  font-weight: bolder;
+  font-size: x-large;
+  cursor: pointer;
+}

@@ -1,0 +1,102 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 2px;
+}
+
+.button-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.button-loading {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+/* Variants */
+.button-default {
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
+
+.button-default:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-neon-cyan);
+}
+
+.button-hero {
+  background: rgba(255, 255, 255, 0.1);
+  color: hsl(var(--foreground));
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.button-hero:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: hsl(var(--primary));
+  box-shadow: var(--shadow-neon-cyan);
+  transform: translateY(-2px);
+}
+
+.button-neon {
+  background: transparent;
+  color: hsl(var(--primary));
+  border: 2px solid hsl(var(--primary));
+}
+
+.button-neon:hover {
+  background: hsl(var(--primary));
+  color: hsl(var(--background));
+  box-shadow: var(--shadow-neon-cyan);
+  transform: scale(1.05);
+}
+
+.button-outline {
+  background: transparent;
+  color: hsl(var(--foreground));
+  border: 1px solid hsl(var(--border));
+}
+
+.button-outline:hover {
+  background: hsl(var(--muted));
+  border-color: hsl(var(--primary));
+}
+
+/* Sizes */
+.button-default {
+  height: 2.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.button-sm {
+  height: 2rem;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.button-lg {
+  height: 3rem;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+}
+
+.button-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0;
+}
