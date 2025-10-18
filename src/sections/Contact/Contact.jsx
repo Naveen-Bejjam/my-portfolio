@@ -80,10 +80,10 @@ const Contact = () => {
                   <div className="contact-detail-item">
                     <span className="contact-detail-label">Email:</span>
                     <a
-                      href="mailto:naveenbejjam@gmail.com"
+                      href="mailto:naveebejjam1707@gmail.com"
                       className="contact-detail-link"
                     >
-                      naveenbejjam@gmail.com
+                      naveebejjam1707@gmail.com
                     </a>
                   </div>
                   <div className="contact-detail-item">

@@ -437,6 +437,10 @@
 }
 
 @media (max-width: 768px) {
+
+  .hero-scroll{
+    display: none;
+  }
   .hero-content {
     /* grid-template-columns: 1fr; */
     flex-direction: column;

@@ -46,7 +46,7 @@ const About = () => {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.2, duration: 0.6 }}
           >
-            Passionate Frontend Developer with 3 years of experience crafting
+            Passionate Frontend Developer with 3+ years of experience crafting
             responsive, high-performance web applications. Specializes in
             React.js & modern JavaScript, building seamless, futuristic user
             interfaces.

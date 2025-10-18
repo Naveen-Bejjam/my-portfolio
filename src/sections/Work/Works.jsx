@@ -34,7 +34,7 @@ const experiences = [
     achievements: [
       "Developed APIs",
       "Contributed to design docs",
-      "Integrated backend with frontend modules",
+      "Collaborated with the team by sharing expertise in debugging and knowledge sharing and improving overall delivery.",
     ],
     technologies: ["Python", "Django", "REST API"],
   },
