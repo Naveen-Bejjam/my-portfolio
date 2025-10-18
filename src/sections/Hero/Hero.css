@@ -138,10 +138,13 @@
   margin: 0;
   position: relative;
   text-align: left;
+  margin-top : -7%;
 }
 
 .hero-greet{
     color : #FAFAFA;
+    margin:0;
+    text-align: left;
     /* background-size: 200% 200%; */
     /* -webkit-background-clip: text;
     background-clip: text; */
