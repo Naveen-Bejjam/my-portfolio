@@ -71,11 +71,15 @@ function Hero() {
           {/* Left Content */}
           <motion.div
             className="hero-text"
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            // initial={{ opacity: 0, x: -50 }}
+            // animate={{ opacity: 1, x: 0 }}
+            // transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <h1 className="hero-title hero-greet" >Hi,  I'm</h1>
+            <motion.h1 className="hero-title hero-greet" 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4 }}
+            >Hi,  I'm</motion.h1>
             {/* <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -128,7 +132,7 @@ function Hero() {
                   window.open("/NaveenBejjam_Resume.pdf", "_blank")
                 }
               >
-                <span className="button-text">Download CV</span>
+                <span className="button-text">View Resume</span>
               </CustomButton>
               <CustomButton
                 variant="hero"

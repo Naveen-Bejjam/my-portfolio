@@ -113,8 +113,16 @@ const Contact = () => {
                 <Button
                   variant="neon"
                   className="contact-resume-btn"
-                  onClick={() =>
-                    window.open("/NaveenBejjam_Resume.pdf", "_blank")
+                  onClick={() => {
+                    const fileUrl = "/Naveen_Bejjam_Resume.pdf";
+                    // Create an invisible anchor element
+                    const link = document.createElement("a");
+                    link.href = fileUrl;
+                    link.download = "Naveen_Bejjam_Resume.pdf"; // Desired filename
+                    document.body.appendChild(link);
+                    link.click();          // Programmatically click the link to trigger download
+                    document.body.removeChild(link);
+                  }
                   }
                 >
                   Download Resume
