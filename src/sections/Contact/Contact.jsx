@@ -31,7 +31,7 @@ const Contact = () => {
         () => {
           toast({
             title: "Success!",
-            description: "Your message has been sent successfully.",
+            description: "Got your message! I'll get back to you soon.",
             variant: "success",
           });
           formRef.current.reset();

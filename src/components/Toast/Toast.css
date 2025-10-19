@@ -28,10 +28,12 @@
 .toast-default {
   border-color: hsl(var(--border));
 }
-
+/* --background: 213 33% 7%;
+    --foreground: 0 0% 100%; */
 .toast-success {
-  border-color: hsl(120 100% 50%);
-  background: hsl(120 100% 10%);
+  /* border-color: hsl(120 100% 50%); */
+  /* background: hsl(120 100% 10%); */
+  background: hsl(213 33% 7%);
 }
 
 .toast-error {
@@ -60,7 +62,7 @@
   border: none;
   color: hsl(var(--muted-foreground));
   cursor: pointer;
-  padding: 0;
+  /* padding: 0; */
   width: 1.25rem;
   height: 1.25rem;
   display: flex;
