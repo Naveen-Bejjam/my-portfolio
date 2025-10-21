@@ -3,13 +3,15 @@ import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import "./Works.css";
 import Card from "../../components/Card/Card";
+import { ExternalLink } from "lucide-react";
+
 
 const experiences = [
   {
     company: "Head Digital Works Pvt Ltd",
     role: "Software Development Engineer",
-    period: "July 2022 – Present",
-    website: "https://headdigitalworks.com",
+    period: "July 2022 – Sept 2025",
+    website: "https://hdworks.in/",
     achievements: [
       "Built POKER & CALL BREAK apps with React.js, Electron.js, JS, HTML, CSS",
       "Owned modules: Wallet, AddCash, Profile, Offers (Juspay & HyperVerge integration)",
@@ -30,7 +32,7 @@ const experiences = [
     company: "Loyalty Juggernaut Inc.",
     role: "Python Django Developer (Internship)",
     period: "6 months",
-    website: "https://loyaltyjuggernaut.com",
+    website: "https://lji.io",
     achievements: [
       "Developed APIs",
       "Contributed to design docs",
@@ -80,6 +82,7 @@ const Experience = () => {
                         className="experience-company"
                       >
                         {exp.company}
+                        <ExternalLink className="external-link"/>
                       </a>
                       <h3 className="experience-role">{exp.role}</h3>
                       <p className="experience-period">{exp.period}</p>

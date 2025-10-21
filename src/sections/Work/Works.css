@@ -46,12 +46,23 @@
   text-decoration: none;
   display: inline-block;
   margin-bottom: 0.5rem;
-  transition: all 0.3s;
+  display: flex;
+  align-items: baseline;
+  gap : 1vw;
+  /* transition: all 0.3s; */
 }
 
-.experience-company:hover {
+/* .experience-company:hover {
   color: hsl(var(--secondary));
   text-shadow: var(--shadow-neon-cyan);
+} */
+
+.external-link{
+  color: hsl(var(--secondary));
+  text-shadow: var(--shadow-neon-cyan);
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: all 0.3s;
 }
 
 .experience-role {
