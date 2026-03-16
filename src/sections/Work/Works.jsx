@@ -8,6 +8,27 @@ import { ExternalLink } from "lucide-react";
 
 const experiences = [
   {
+    company: "Augmento Labs ( A SAKSOFT Company )",
+    role: "Senior Software Engineer",
+    period: "Oct 2025 – Present",
+    website: "https://augmentolabs.com/",
+    achievements: [
+      "Developing a greenfield application using micro-frontend architecture with Webpack Module Federation.",
+      "Stabilizing the platform by fixing critical bugs and delivering new features in collaboration with US-based Client(Cyncly).",
+      "Unit testing with jest, Agile participation",
+    ],
+    technologies: [
+      "React.js",
+      "JavaScript",
+      "TypeScript",
+      "Microfrontends",
+      "Webpack and Module Federation",
+      "Redux Toolkit",
+      "Jest",
+      "Azure",
+    ],
+  },
+  {
     company: "Head Digital Works Pvt Ltd",
     role: "Software Development Engineer",
     period: "July 2022 – Sept 2025",
@@ -23,6 +44,7 @@ const experiences = [
       "React.js",
       "Electron.js",
       "JavaScript",
+      "TypeScript",
       "Redux Toolkit",
       "Jest",
       "Jenkins",
